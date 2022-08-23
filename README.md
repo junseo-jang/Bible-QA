@@ -41,3 +41,9 @@
 
 1. Move the division boarder to the closest . or ? or ! behind.
 
+### Improvement
+
+<img width="629" alt="image" src="https://user-images.githubusercontent.com/73162197/186071687-b9f8fd7a-c440-4b94-b2d1-b11fe3d36d00.png">
+
+1. Changing the model from Electra to Bigbird allows to have less iteration than before since Bigbird's maximum input length is longer than Electra.
+
