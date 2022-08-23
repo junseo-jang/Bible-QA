@@ -39,5 +39,5 @@
 
 <img width="712" alt="image" src="https://user-images.githubusercontent.com/73162197/186070347-64245938-8fda-41e9-af66-a69066dc8025.png">
 
-
+1. Move the division boarder to the closest . or ? or ! behind.
 
