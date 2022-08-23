@@ -24,3 +24,20 @@
 ### Solution 1
 
 <img width="705" alt="image" src="https://user-images.githubusercontent.com/73162197/186061645-b3f6fe13-930b-42f7-aec9-88445d334b08.png">
+1. Divide the input text so that each partition's length does not exceed the maximum input lenth of Electra.
+2. Run the model for each partition and get the start, end position possibility value.
+3. Pick the answer that has the highest (start_pos + end_pos)/2 value.
+
+### Problem 2
+
+<img width="781" alt="image" src="https://user-images.githubusercontent.com/73162197/186062468-000a9f43-6a41-4872-a435-be1759d1292e.png">
+
+1. In the process of dividing text, a text can be divided in the middle of sentence.
+2. This might lead to mischoosing the correct answer.
+
+### Solution 2
+
+<img width="712" alt="image" src="https://user-images.githubusercontent.com/73162197/186070347-64245938-8fda-41e9-af66-a69066dc8025.png">
+
+
+
