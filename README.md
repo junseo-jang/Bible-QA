@@ -10,3 +10,17 @@
 1. Vectorize chatpers and question with td-idf.
 2. Get top 20 chapters that are similar to question using cosine-similarity.
 3. Insert the whole 20 chapters as one long text and question to the language model.
+
+
+## Long-Text QA
+
+### Problem 1
+
+<img width="718" alt="image" src="https://user-images.githubusercontent.com/73162197/186059638-4de847e4-db2a-48de-852a-405ef6914a68.png">
+
+1. Original ElectraForQuestionAnswering Model only allows maximum length of 512 tokens as input.
+2. If the length of text and question exceeds the maximum length, inference is impossible.
+
+### Solution 1
+
+<img width="705" alt="image" src="https://user-images.githubusercontent.com/73162197/186061645-b3f6fe13-930b-42f7-aec9-88445d334b08.png">
